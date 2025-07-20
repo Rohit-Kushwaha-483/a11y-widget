@@ -86,3 +86,15 @@ body.no-animations *::after {
   animation: none !important;
   transition: none !important;
 }
+
+/* Apply the custom text spacing and font size variables globally */
+:root {
+  --font-size: 1rem; /* Default font size */
+  --text-spacing: 0rem; /* Default text spacing */
+}
+
+/* Apply dynamic styling to the body element */
+body {
+  font-size: var(--font-size);
+  letter-spacing: var(--text-spacing);
+}
