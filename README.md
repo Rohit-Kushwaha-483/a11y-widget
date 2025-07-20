@@ -50,6 +50,6 @@ The A11y Widget is a comprehensive accessibility tool that enables users to cust
 
 - Behavior Controls: Implemented features to pause animations, hide images, and provide visible tooltips to enhance accessibility.
 
-<!-- **Demo Video** : 
+**Demo Video** : 
 
-You can view the demo of the widget here: -->
+[Click here to watch](https://limewire.com/decrypt?downloadUrl=https%3A%2F%2Flimewire-filesharing-production.b61cdfd8cf17f52ddc020162e738eb5d.r2.cloudflarestorage.com%2Fbuckets%2Ffffc52f0-2a55-40a4-a22f-980235ee96f4%2F677e07bf-844a-4892-aec7-823e4acb253e%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Date%3D20250720T141321Z%26X-Amz-SignedHeaders%3Dhost%26X-Amz-Credential%3Da1868571dfad6d4fe293ee5b945a0ad5%252F20250720%252Fauto%252Fs3%252Faws4_request%26X-Amz-Expires%3D14400%26X-Amz-Signature%3D406e09a17703cc9c7bd21222cf0cb58f0083650c14665c55f9fecb8d99ff8e6e&mediaType=video%2Fmp4&decryptionSession=eyJhZXNKd2tHY20iOnsiYWVzS2V5VHlwZSI6IlNZTU1FVFJJQ19BRVMtR0NNX0tFWSIsImp3ayI6eyJhbGciOiJBMjU2R0NNIiwiZXh0Ijp0cnVlLCJrIjoiX1lCdWVEODRaMk1BN255U0RUQy1GTUk4dGVmZ1VUT3NLcHVyMGIyT3RtbyIsImtleV9vcHMiOlsiZW5jcnlwdCIsImRlY3J5cHQiXSwia3R5Ijoib2N0In19LCJhZXNKd2tDdHIiOnsiYWVzS2V5VHlwZSI6IlNZTU1FVFJJQ19BRVMtQ1RSX0tFWSIsImp3ayI6eyJhbGciOiJBMjU2Q1RSIiwiZXh0Ijp0cnVlLCJrIjoiX1lCdWVEODRaMk1BN255U0RUQy1GTUk4dGVmZ1VUT3NLcHVyMGIyT3RtbyIsImtleV9vcHMiOlsiZW5jcnlwdCIsImRlY3J5cHQiXSwia3R5Ijoib2N0In19fQ)
