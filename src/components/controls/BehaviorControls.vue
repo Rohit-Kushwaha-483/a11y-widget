@@ -32,7 +32,6 @@ export default {
     };
   },
   methods: {
-
     updatePauseAnimations() {
       if (this.pauseAnimations) {
         // Add class to disable animations globally
@@ -42,8 +41,8 @@ export default {
         document.body.classList.remove('no-animations');
       }
       localStorage.setItem('pauseAnimations', this.pauseAnimations);
-    }
-    ,
+    },
+
     updateHideImages() {
       const images = document.querySelectorAll('img');
       images.forEach(img => {
@@ -55,18 +54,20 @@ export default {
       });
       localStorage.setItem('hideImages', this.hideImages);
     },
+
     updateDyslexiaFont() {
-      if (this.dyslexiaFont) {
+      // Check if the dyslexia font link is already added to the head
+      const existingLink = document.querySelector("link[href*='opendyslexic']");
+      
+      if (this.dyslexiaFont && !existingLink) {
         const link = document.createElement("link");
         link.href = "https://cdn.jsdelivr.net/npm/opendyslexic@latest/opendyslexic.css";
         link.rel = "stylesheet";
         document.head.appendChild(link);
-      } else {
-        const existingLink = document.querySelector("link[href*='opendyslexic']");
-        if (existingLink) {
-          document.head.removeChild(existingLink);
-        }
+      } else if (!this.dyslexiaFont && existingLink) {
+        document.head.removeChild(existingLink);
       }
+
       localStorage.setItem('dyslexiaFont', this.dyslexiaFont);
     }
   }
